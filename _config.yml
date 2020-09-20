@@ -1,7 +1,7 @@
 # Site settings
 title: Fairview
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/fairview-website/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 author: Fairview 2020
 lang: en_GB

@@ -5,8 +5,8 @@
     <div class="row no-gutters">
       {% for proj in section.features %}
       <div class="col-lg-4 col-sm-6">
-        <a class="photos-box" href="assets/img/features/fullsize/{{ proj.icon }}">
-          <img class="img-fluid" src="assets/img/features/thumbnails/{{ proj.icon }}" alt="">
+        <a class="photos-box" href="{{site.baseurl}}/assets/img/features/fullsize/{{ proj.icon }}">
+          <img class="img-fluid" src="{{site.baseurl}}/assets/img/features/thumbnails/{{ proj.icon }}" alt="">
           <div class="photos-box-caption">
             <div class="feature-category text-white-50">
               {{ proj.title }}
