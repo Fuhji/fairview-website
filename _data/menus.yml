@@ -7,11 +7,9 @@ header:
     url: /#about
   - title: Facilities
     url: /#facilities
-  - title: Members
-    url: /#members
-  - title: History
-    url: /#timeline
-  - title: Contacts
+  - title: Photos
+    url: /#photos
+  - title: Location
+    url: /#address
+  - title: Contact
     url: /#contacts
-  - title: Links
-    url: /links

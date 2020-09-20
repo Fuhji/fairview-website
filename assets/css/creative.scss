@@ -513,7 +513,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -10499,26 +10499,26 @@ header.masthead h1 {
   }
 }
 
-#portfolio .container-fluid,
-#portfolio .container-sm,
-#portfolio .container-md,
-#portfolio .container-lg,
-#portfolio .container-xl {
+#photos .container-fluid,
+#photos .container-sm,
+#photos .container-md,
+#photos .container-lg,
+#photos .container-xl {
   max-width: 1920px;
 }
-#portfolio .container-fluid .portfolio-box,
-#portfolio .container-sm .portfolio-box,
-#portfolio .container-md .portfolio-box,
-#portfolio .container-lg .portfolio-box,
-#portfolio .container-xl .portfolio-box {
+#photos .container-fluid .photos-box,
+#photos .container-sm .photos-box,
+#photos .container-md .photos-box,
+#photos .container-lg .photos-box,
+#photos .container-xl .photos-box {
   position: relative;
   display: block;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
-#portfolio .container-sm .portfolio-box .portfolio-box-caption,
-#portfolio .container-md .portfolio-box .portfolio-box-caption,
-#portfolio .container-lg .portfolio-box .portfolio-box-caption,
-#portfolio .container-xl .portfolio-box .portfolio-box-caption {
+#photos .container-fluid .photos-box .photos-box-caption,
+#photos .container-sm .photos-box .photos-box-caption,
+#photos .container-md .photos-box .photos-box-caption,
+#photos .container-lg .photos-box .photos-box-caption,
+#photos .container-xl .photos-box .photos-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10530,52 +10530,32 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(89, 110, 121, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#portfolio
-  .container-fluid
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-sm
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-md
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-lg
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category,
-#portfolio
-  .container-xl
-  .portfolio-box
-  .portfolio-box-caption
-  .project-category {
+#photos .container-fluid .photos-box .photos-box-caption .feature-category,
+#photos .container-sm .photos-box .photos-box-caption .feature-category,
+#photos .container-md .photos-box .photos-box-caption .feature-category,
+#photos .container-lg .photos-box .photos-box-caption .feature-category,
+#photos .container-xl .photos-box .photos-box-caption .feature-category {
   font-family: var(--font-family-serif);
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-md .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name {
+#photos .container-fluid .photos-box .photos-box-caption .feature-name,
+#photos .container-sm .photos-box .photos-box-caption .feature-name,
+#photos .container-md .photos-box .photos-box-caption .feature-name,
+#photos .container-lg .photos-box .photos-box-caption .feature-name,
+#photos .container-xl .photos-box .photos-box-caption .feature-name {
   font-size: 1.2rem;
 }
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-md .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-lg .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
+#photos .container-fluid .photos-box:hover .photos-box-caption,
+#photos .container-sm .photos-box:hover .photos-box-caption,
+#photos .container-md .photos-box:hover .photos-box-caption,
+#photos .container-lg .photos-box:hover .photos-box-caption,
+#photos .container-xl .photos-box:hover .photos-box-caption {
   opacity: 1;
 }
 

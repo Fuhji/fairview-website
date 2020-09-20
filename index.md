@@ -45,117 +45,51 @@ sections:
         text: Wi-Fi, Nest, Television, Satellite
         icon: fa-wifi
 
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
-    projects:
-      - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
+  - type: photos.html
+    # this section has always ID 'photos'
+    section_id: photos
+    title: Features and Surround Area
+    features:
+      - title: Feature 1
+        text: This is a very short Feature description.
+        icon: DSC_0620.jpg
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
+      - title: Feature 2
+        text: This is a very short Feature description.
+        icon: DSC_0683.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
+      - title: Feature 3
+        text: This is a very short Feature description.
+        icon: DSC_0663.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
+      - title: Feature 4
+        text: This is a very short Feature description.
+        icon: DSC_0648.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
+      - title: Feature 5
+        text: This is a very short Feature description.
+        icon: DSC_0633.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
+      - title: Feature 6
+        text: This is a very short Feature description.
+        icon: DSC_0715.jpg
         url: '#'
 
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
-
-  - type: members.html
-    section_id: members
-    title: Our Crew!
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
-
-  - type: timeline.html
-    section_id: timeline
-    title: Major Achievements!
-    background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
-    actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          2017-2018
-          **Humble Beginnings**
-        text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          November 2019
-          An Coaching started
-        text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+  - type: address.html
+    section_id: address
+    title: Our Location
+    map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1013.5033662057714!2d-2.5007275118136856!3d52.674819811896704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDQwJzI5LjQiTiAywrAzMCcwMC42Ilc!5e1!3m2!1sen!2suk!4v1600602018676!5m2!1sen!2suk
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Contact Us
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      For enquiries about staying here, please contact us via:
     actions:
-    - title: +1 (202) 555-014
+    - title: +44 (00000) 999999
       icon: fa-phone
     - title: E-Mail
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: fa-twitter
-      icon_type: fab
-      url: '#'
-    - title: Facebook
-      icon: fa-facebook
-      icon_type: fab
-      url: '#'
+      url: mailto:contact@fairview.com
 
 ---
