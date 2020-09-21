@@ -20,7 +20,15 @@
           <div class="text-muted mb-0">
             {{ service.text | markdownify }}
             {% if service.url %}
-            <a href="{{ service.url }}"><i class="fas fa-link"></i></a>
+            <div class="row justify-content-center">
+              <div class="col md-auto text-center">
+
+                <a href="{{ service.url }}"
+                  class="btn btn-xl js-scroll-trigger {{ action.class | default: "btn-primary" }}">More</a>
+
+              </div>
+            </div>
+            <!-- <a href="{{ service.url }}"><i class="fas fa-link"></i></a> -->
             {% endif %}
           </div>
         </div>

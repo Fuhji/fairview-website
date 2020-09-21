@@ -28,13 +28,15 @@ sections:
       - title: Bedrooms
         text: There are X bedrooms
         icon: fa-bed
-        # url: https://startbootstrap.com/
+        url: 'bedrooms'
       - title: Bathrooms
         text: There are X bathrooms
         icon: fa-bath
+        url: 'bathroom'
       - title: Kitchen
         text: Fully-fitted kitchen facilities
         icon: fa-fire
+        url: 'kitchen'
       - title: Garden
         text: Private garden with access to ancient historic woodland
         icon: fa-leaf
@@ -45,40 +47,53 @@ sections:
         text: Wi-Fi, Nest, Television, Satellite
         icon: fa-wifi
 
+
   - type: photos.html
     # this section has always ID 'photos'
     section_id: photos
-    title: Features and Surround Area
+    title: Features and Surrounding Area
     features:
       - title: Feature 1
         text: This is a very short Feature description.
-        icon: DSC_0620.jpg
+        icon: DSC_0732.jpg
         url: '#'
       - title: Feature 2
         text: This is a very short Feature description.
-        icon: DSC_0683.jpg
+        icon: fv_in_71.jpg
         url: '#'
       - title: Feature 3
         text: This is a very short Feature description.
-        icon: DSC_0663.jpg
+        icon: DSC_0767.jpg
         url: '#'
       - title: Feature 4
         text: This is a very short Feature description.
-        icon: DSC_0648.jpg
+        icon: fv_in_1.jpg
         url: '#'
       - title: Feature 5
         text: This is a very short Feature description.
-        icon: DSC_0633.jpg
+        icon: DSC_0696.jpg
         url: '#'
       - title: Feature 6
         text: This is a very short Feature description.
-        icon: DSC_0715.jpg
+        icon: fv_in_90.jpg
         url: '#'
 
   - type: address.html
     section_id: address
-    title: Our Location
+    title: Location
     map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1013.5033662057714!2d-2.5007275118136856!3d52.674819811896704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDQwJzI5LjQiTiAywrAzMCcwMC42Ilc!5e1!3m2!1sen!2suk!4v1600602018676!5m2!1sen!2suk
+    address:
+      title: Address
+      text: >
+        Fairview,<br/>
+        New Works,<br/>
+        Telford,<br/>
+        TF6 5BS,<br/>
+        United Kingdom
+    phone:
+      title: Telephone
+      text: >
+        +44 (0000) 000000
 
   - type: contact.html
     section_id: contacts
